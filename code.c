@@ -5,10 +5,9 @@ int main(){
 
     printf("Contando numeros pares ate %d:\n", limite);
 
-    for(int i = 1; i <= limite; i++){
-        if(i%2 == 0){
+    for(int i = 0; i <= limite; i+=2){
             printf("%d\n", i);
-        }
+        
     }
 
     return 0;
